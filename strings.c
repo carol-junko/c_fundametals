@@ -3,6 +3,7 @@
 int	main(void)
 {
 	char	name[9];
+
 	name[0] = 'C';
 	name[1] = 'a';
 	name[2] = 'r';
@@ -14,6 +15,5 @@ int	main(void)
 	name[8] = '\0';
 	write(1, name, 9);
 	write(1, "\n", 1);
-
 	return (0);
 }

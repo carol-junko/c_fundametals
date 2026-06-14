@@ -1,9 +1,10 @@
 #include <unistd.h>
 
-int 	main(void)
+int	main(void)
 {
-	int	i;
+	int		i;
 	char	n;
+
 	i = 0;
 	while (i < 5)
 	{

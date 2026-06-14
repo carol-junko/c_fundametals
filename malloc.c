@@ -30,5 +30,4 @@ int	main(void)
 	write(1, "\n", 1);
 	free(copy);
 	return (0);
-
 }

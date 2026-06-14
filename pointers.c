@@ -2,7 +2,8 @@
 
 void	ft_swap(int *a, int*b)
 {
-	int temp;
+	int		temp;
+
 	temp = *a;
 	*a = *b;
 	*b = temp;
@@ -10,11 +11,10 @@ void	ft_swap(int *a, int*b)
 
 int	main(void)
 {
-	int a;
-	int b;
-
+	int		a;
+	int		b;
 	char	c;
-	
+
 	a = 3;
 	b = 5;
 	ft_swap(&a, &b);
